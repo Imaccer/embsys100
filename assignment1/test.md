@@ -1,3 +1,3 @@
 test file
 
-![Hello Image](/assignment1/HelloImage.png)
+![Hello Image](\HelloImage.png)
