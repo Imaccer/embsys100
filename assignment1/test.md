@@ -1,3 +1,3 @@
 test file
 
-![Hello Image](\HelloImage.png)
+![Hello Image](HelloImage.png)
