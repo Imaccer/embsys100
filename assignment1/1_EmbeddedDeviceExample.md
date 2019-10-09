@@ -1,7 +1,9 @@
 # __Embedded Device Example - The Cubesat__
 Using the telegraph example, and the challenges listed in the module as reference, and describe another device that you would like to discuss. Describe how you think its embedded system works, and what design challenges it presents.
 
-![Cubesat Image](cubesat_board.jpg)
+<p align="center">
+  <img src="cubesat_board.jpg">
+</p>
 
 ## __Throughput__
 
