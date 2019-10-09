@@ -1,2 +1,3 @@
 # __2. Two's Complement__
-
+Question: Why use two’s complement to represent negative numbers?
+Answer: Two's complement is useful for simplifying the implementation of arithmetic on computer hardware. Two's complement is used to represent negative numbers because...
