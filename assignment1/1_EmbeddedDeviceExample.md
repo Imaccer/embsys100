@@ -10,6 +10,7 @@ Short communication windows with the ground station. Must be ready to transmit o
 ## __Response__ 
 Responding to information received from various sensors and acting on it. For example, it may enter an uncontrolled spin and need to act quickly on the gyroscope data to correct the spin as quickly as possible. It must also be able to respond immediately to commands received from the ground. For example, it may need to perform a collision avoidance maneuver if orbital debris or another satellite going to intersect it's orbit. 
 ## __Testability__
+Testing the satellite fully under space-like conditions is challenging. 
 
 ## __Debugability__
 
@@ -18,6 +19,7 @@ Once it is launched...
 ## __Memory Space__
 
 ## __Program Installation and Upgrade__
+
 
 ## __Power Consumption__
 Rely on solar panels for power, what limit? Also, when in Earth's shadow no incoming power. Different power modes. 
