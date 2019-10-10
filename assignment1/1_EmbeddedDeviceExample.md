@@ -19,7 +19,7 @@ Once it is launched...
 ## __Memory Space__
 
 ## __Program Installation and Upgrade__
-
+Usually have a ground mock of the system to thoroughly test any software updates before upload to the satellite.
 
 ## __Power Consumption__
 Rely on solar panels for power, what limit? Also, when in Earth's shadow no incoming power. Different power modes. 
