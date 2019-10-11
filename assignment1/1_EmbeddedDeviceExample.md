@@ -6,11 +6,19 @@ Using the telegraph example, and the challenges listed in the module as referenc
 </p>
 
 ## __Throughput__
-Short communication windows with the ground station. Must be ready to transmit or receive data when making a pass over a ground station (while travelling at 7km/s).
+_May need to handle lot of data in short period of time_
+Short communication windows with the ground station for low orbits that cubesats operate in. Must be ready to transmit or receive data when making a pass over a ground station (while travelling at 7km/s).
 ## __Response__ 
+_Reacting to events quickly_
 Responding to information received from various sensors and acting on it. For example, it may enter an uncontrolled spin and need to act quickly on the gyroscope data to correct the spin as quickly as possible. It must also be able to respond immediately to commands received from the ground. For example, it may need to perform a collision avoidance maneuver if orbital debris or another satellite going to intersect it's orbit. 
 ## __Testability__
-Testing the satellite fully under space-like conditions is challenging. 
+_Special equipment required to test the embedded software._
+Testing the satellite fully under space-like conditions is challenging. _A test environment to validate their
+CubeSat’s de-tumbling control system and hardware. The test environment required a Helmholtz
+cage and spherical air bearing. The Helmholtz cage provides an adjustable magnetic field to
+simulate low earth orbit; the spherical air bearing simulates the friction free environment the
+CubeSat will experience in space. In conjunction, the two components create an adjustable
+system that simulates a satellite in low earth orbit._
 
 ## __Debugability__
 
