@@ -21,5 +21,4 @@ We can now perform the subtraction operation (or more accurately, addition):
 _______________________    
     
  \+ 0b11101100 (-20)
- ----------------------
  
