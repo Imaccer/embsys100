@@ -45,13 +45,9 @@ SEUs can interrupt discrete logic, including processing. Triple modular redundan
 Multiple copies of the firmware are also stored to mitigate against corruption of the data. Like data memory, program memory is also susceptible to SEUs and device failure. A bootloader may be used to check the validity of the firmware and provide a mechanism for uploading new versions. Additionally, multiple copies of the firmware may be stored in memory in case the primary version is corrupted.
 
 ## __Power Consumption__
-The small size of CubeSats is their main advantage along with their low production cost due to the ability to manufacture at scale. However, the limited size has an impact on the available power resources. In space, solar power is widely used to power satellites. The limited real estate available to deploy solar panels on CubeSats results in limited power resources. Also, the limited size restricts the available space for power storage solutions. CubeSats must be equipped with power storage and low power modes to allow for operation when the satellite is passing through the Earth's shadow. Generally, CubeSat's power budgets are very restricted. 
+The small size of CubeSats is their main advantage along with their low production cost due to the ability to manufacture at scale. However, the limited size has an impact on the available power resources. In space, solar power is widely used to power satellites. The limited real estate available to deploy solar panels on CubeSats results in limited power resources. Also, the limited size restricts the available space for power storage solutions. CubeSats must be equipped with power storage and low power modes to allow for operation when the satellite is passing through the Earth's shadow. Software must be able to conserve power as CubeSat's power budgets are generally very restricted. 
 
 Additionally, since many components are more prone to radiation effects when powered on, a potential mitigation strategy involves powering off devices when they are not needed.
-
-## __Security__
-Be able to prevent malicious uploads...especially for military satellites. Maintain secure communications. 
-
 
 ## __Cost__
 CubeSats main selling point is their low cost compared to more traditional satellites. The cost per lb to lauch mass into a low earth orbit is still very high despite recent progress in this area by SpaceX and others. Hence, minimizing the mass of the satellite is critical. 
