@@ -74,4 +74,6 @@ https://www.embedded.com/the-challenges-and-evolution-of-CubeSat-electronics/
 
 https://sst-soa.arc.nasa.gov
 
+https://en.wikipedia.org/wiki/Single-event_upset
+
 
