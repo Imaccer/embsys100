@@ -12,7 +12,7 @@ Using the telegraph example, and the challenges listed in the module as referenc
 ## __Throughput__
 _May need to handle lot of data in short period of time_
 
-Cubesats typically operate in low Earth orbits, which means that they are travelling extremely fast with respect to the ground (~7 km/s). Consequently, there are only short communication windows with the ground station when the satellite can transmit and receive data. This means that the satellite must be able to handle large amounts of data in short periods of time. 
+Cubesats typically operate in low Earth orbits, which means that they are travelling extremely fast with respect to the ground (~7 km/s). Consequently, there are only short communication windows with the ground station when the satellite can transmit and receive data. This means that the satellite must be able to handle large amounts of data in short periods of time. Cubesats are also often equipped with sensors which generate large volumes of data. A common application of cubesats is for imaging of the Earth's surface. Limited bandwidth may be available for transmission of images from cubesats to the ground. Hence, it may be necessary to perform image processing with the onboard microprocessor in order to reduce the data sufficiently for transmission. 
 
 ## __Response__ 
 _Reacting to events quickly_
