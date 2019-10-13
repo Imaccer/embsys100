@@ -13,9 +13,7 @@ The field of small satellites is growing rapidly, over 1000 CubeSats have been l
 
 ## __Throughput__
 
-CubeSats typically operate in low Earth orbits, which means that they are travelling extremely fast with respect to the ground (~7 km/s). Consequently, there are only short communication windows with the ground station when the satellite can transmit and receive data. This means that the satellite must be able to process large amounts of data in short periods of time. 
-
-CubeSats are often equipped with sensors which generate large volumes of data. For example, gyroscopes, star sensors, magnetometers, CCD cameras. A common application of CubeSats is for imaging of the Earth's surface. Limited bandwidth may be available for transmission of images from CubeSats to the ground. Hence, it may be necessary to perform image processing with the onboard microprocessor in order to reduce the data sufficiently for transmission. 
+CubeSats are often equipped with sensors which generate large volumes of data. For example, gyroscopes, star sensors, magnetometers, and CCD cameras. A common application of CubeSats is for imaging of the Earth's surface. Limited bandwidth may be available for transmission of images from CubeSats to the ground. Hence, it may be necessary to perform image processing with the onboard microprocessor in order to reduce the data sufficiently for transmission. 
 
 ## __Response__ 
 
@@ -25,9 +23,9 @@ CubeSats must be capable of responding to information received from various sens
 
 Testing the satellite fully under space-like conditions on the ground is challenging. There are many situations that may occur in space which are not possible to recreate in the labarotory. 
 
-An example of one aspect of the satellite that must be thoroughly tested is the CubeSat's de-tumbling control system and hardware. If the satellite enters an uncontrolled rotation (tumble) it must be able to quickly correct it's orientation and regain a controlled orientation. To recreate the conditions of space which impact this problem, it is necessary to use a Helmholtz coil to recreate the magnetic environment of space and a spherical air bearing which simulates the friction free environment in orbit. These two components allow for the creation of an adjustable system that simulates the satellite in orbit. An example of a CubeSat air bearing setup is shown in the following video from Clyde Space:
+One aspect of the satellite that must be thoroughly tested is the CubeSat's de-tumbling control system and hardware. If the satellite enters an uncontrolled rotation (tumble) it must be able to quickly correct it's orientation and regain a controlled orientation. To recreate the conditions of space in which this scenario arises, it is necessary to use a Helmholtz coil to recreate the magnetic environment of space and a spherical air bearing which simulates the friction free environment in orbit. These two components allow for the creation of an adjustable system that simulates the satellite in orbit. An example of a CubeSat air bearing setup is shown in the following video from Clyde Space:
 
-[![Alt text](https://img.youtube.com/vi/d9Cw1l7ExHE/0.jpg)](https://www.youtube.com/watch?v=d9Cw1l7ExHE)
+[![CubeSat de-tumble testing.](https://img.youtube.com/vi/d9Cw1l7ExHE/0.jpg)](https://www.youtube.com/watch?v=d9Cw1l7ExHE)
 
 ## __Debugability__
 _Without a screen or keyboard, finding out what software is doing wrong is troublesome._
