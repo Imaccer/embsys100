@@ -1,12 +1,11 @@
-# __Embedded Device Example - The Cubesat__
-Using the telegraph example, and the challenges listed in the module as reference, and describe another device that you would like to discuss. Describe how you think its embedded system works, and what design challenges it presents.
+# __The Cubesat__
 
 <p align="center">
   <img src="cubesat_board.jpg">
 </p>
 
-# __How the Embedded System Works__
-
+# __How the Embedded System Works__ 
+One the earliest forms of modern embedded systems was the Apollo Guidance Computer (ACG) developed by MIT Instrumentations Laboratories. The ACG was used for calculating, relaying, and controlling all flight information on the Apollo manned missions. This guidance computer was one the first systems to use the new monolithic integrated circuits (ICs) that had just came on the market. Now man is returning to space for more complex missions, but the strategy has remained the same: to use embedded applications to develop space capable vehicles for research and exploration.
 # __Design Challenges__
 
 ## __Throughput__
