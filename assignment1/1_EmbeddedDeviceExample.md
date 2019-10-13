@@ -3,7 +3,7 @@
 Compared to conventional satellites, CubeSats are inexpensive to develop and launch, and can be networked together to form constellations. A 1U CubeSat has a form factor of 10 x 10 x 11.35cm. The CubeSat chassis is shown in Figure 1 along with a standard form factor circuit board that fits into the chassis. These can be concatenated with additional 1U cubes to form larger systems such as 3U or 6U depending on the complexity of the satellite system requirements.
  
 <p align="center">
-  <img src="cubesat_board.jpg" | width=100>
+  <img src="cubesat_board.jpg" | width=1000>
 </p>
 
 # __How the Embedded System Works__ 
