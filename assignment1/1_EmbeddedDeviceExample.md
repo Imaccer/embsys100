@@ -15,7 +15,7 @@ The field of small satellites is growing rapidly, over 1000 CubeSats have been l
 
 CubeSats typically operate in low Earth orbits, which means that they are travelling extremely fast with respect to the ground (~7 km/s). Consequently, there are only short communication windows with the ground station when the satellite can transmit and receive data. This means that the satellite must be able to process large amounts of data in short periods of time. 
 
-CubeSats are often equipped with sensors which generate large volumes of data. A common application of CubeSats is for imaging of the Earth's surface. Limited bandwidth may be available for transmission of images from CubeSats to the ground. Hence, it may be necessary to perform image processing with the onboard microprocessor in order to reduce the data sufficiently for transmission. 
+CubeSats are often equipped with sensors which generate large volumes of data. For example, gyroscopes, star sensors, magnetometers, CCD cameras. A common application of CubeSats is for imaging of the Earth's surface. Limited bandwidth may be available for transmission of images from CubeSats to the ground. Hence, it may be necessary to perform image processing with the onboard microprocessor in order to reduce the data sufficiently for transmission. 
 
 ## __Response__ 
 
