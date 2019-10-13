@@ -36,6 +36,9 @@ _Without a screen or keyboard, finding out what software is doing wrong is troub
 ## __Reliability__
 Once it is launched, there is no option to physically interact with the system to address potential problems. If there is a malfunction, the system must be able to recover on its own. 
 
+For space applications, radiation can damage electronics in two ways. Total ionizing dose (TID) is the amount of cumulative radiation received. Single event effects (SEE) is the disturbance created by single particles hitting the electronics . Total dose is measured in krad and can affect transistor performance. Single event upsets (SEU) can affect the logic state of memory. A single event latchup (SEL) can affect the output transistors on CMOS logic, potentially causing a high-current state.
+
+ If the processor jumps to an erroneous memory location through a single-event upset or a software exception, the watchdog timer resets the processor to restore operations 11.
 
 ## __Memory Space__
 
@@ -46,6 +49,8 @@ Usually have a ground mock of the system to thoroughly test any software updates
 
 ## __Power Consumption__
 The small size of cubesats is their main advantage along with their low production cost due to the ability to manufacture at scale. However, the limited size has an impact on the available power resources. In space, solar power is widely used to power satellites. The limited real estate available to deploy solar panels on cubesats results in limited power resources. Also, the limited size restricts the available space for power storage solutions. Cubesats must be equipped with storage and low power modes when to allow for operation when the satellite is passing through the Earth's shadow. 
+
+Since many components are more prone to radiation effects when powered on, a candidate mitigation strategy is to power off devices when they are not operationally needed.
 
 ## __Security__
 Be able to prevent malicious uploads...especially for military satellites. Maintain secure communications. 
