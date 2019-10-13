@@ -17,11 +17,11 @@ Hence, the two's complement representation of (-20) is: 11101100
 
 We can now perform the subtraction operation (or more accurately, addition):
 
-             0  Carry row           
+     111111000  Carry row           
       00011111 (31)  
     + 11101100 (-20)  
     ____________
       00001011
     ____________  
 
- 
+Note, since we are operating on two 8-bit numbers, the result is limited to be an 8-bit number so the final carry over is not used.
