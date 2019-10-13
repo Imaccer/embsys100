@@ -17,12 +17,11 @@ Hence, the two's complement representation of (-20) is: 11101100
 
 We can now perform the subtraction operation (or more accurately, addition):
 
-               0  Carry row
-   _ _ _ _ _ _            
+             0  Carry row           
       00011111 (31)  
     + 11101100 (-20)  
     ____________
-      
+      00001011
     ____________  
 
  
