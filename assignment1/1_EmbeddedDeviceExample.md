@@ -36,9 +36,9 @@ _Without a screen or keyboard, finding out what software is doing wrong is troub
 ## __Reliability__
 Once it is launched, there is no option to physically interact with the system to address potential problems. If there is a malfunction, the system must be able to recover on its own. 
 
-For space applications, radiation can damage electronics in two ways. Total ionizing dose (TID) is the amount of cumulative radiation received. Single event effects (SEE) is the disturbance created by single particles hitting the electronics . Total dose is measured in krad and can affect transistor performance. Single event upsets (SEU) can affect the logic state of memory. A single event latchup (SEL) can affect the output transistors on CMOS logic, potentially causing a high-current state.
+In addition to the isolated operation of the satellite, the satellite must also operate in high radiation conditions which are challenging to operate electronics in. For space applications, radiation can damage electronics in two ways. Total ionizing dose (TID) is the amount of cumulative radiation received. Single event effects (SEE) is the disturbance created by single particles hitting the electronics . Total dose is measured in krad and can affect transistor performance. SEUs can affect the logic state of memory. A single event latchup (SEL) can affect the output transistors on CMOS logic, potentially causing a high-current state.
 
- If the processor jumps to an erroneous memory location through a single-event upset or a software exception, the watchdog timer resets the processor to restore operations 11.
+ If the processor jumps to an erroneous memory location through a SEU or a software exception, the watchdog timer resets the processor to restore operations.
 
 ## __Memory Space__
 
