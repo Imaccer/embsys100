@@ -23,7 +23,7 @@ Cubesats must be capable of responding to information received from various sens
 
 Testing the satellite fully under space-like conditions on the ground is challenging. There are many situations that may occur in space which are not possible to recreate in the labarotory. 
 
-An example of one aspect of the satellite that must be thoroughly tested is the Cubesat's de-tumbling control system and hardware. If the satellite enters an uncontrolled rotation (tumble) it must be able to quickly correct it's orientation and regain a controlled orientation. To recreate the conditions of space which impact this problem, it is necessary to use a Helmholtz coil to recreate the magnetic environment of space and a spherical air bearing which simulates the friction free environment in orbit. These two components allow for the creation of an adjustable system that simulates the satellite in orbit. 
+An example of one aspect of the satellite that must be thoroughly tested is the Cubesat's de-tumbling control system and hardware. If the satellite enters an uncontrolled rotation (tumble) it must be able to quickly correct it's orientation and regain a controlled orientation. To recreate the conditions of space which impact this problem, it is necessary to use a Helmholtz coil to recreate the magnetic environment of space and a spherical air bearing which simulates the friction free environment in orbit. These two components allow for the creation of an adjustable system that simulates the satellite in orbit. An example of a cubesat air bearing setup is shown in the following video from Clyde Space:
 
 [![Alt text](https://img.youtube.com/vi/d9Cw1l7ExHE/0.jpg)](https://www.youtube.com/watch?v=d9Cw1l7ExHE)
 
