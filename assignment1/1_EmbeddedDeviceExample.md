@@ -3,28 +3,29 @@
 The field of small satellites is growing rapidly, over 1000 CubeSats have been launched as of January 2019. Compared to conventional satellites, CubeSats are inexpensive to develop and launch, and can be networked together to form constellations. A 1U CubeSat has a form factor of 10 x 10 x 11.35cm. The CubeSat chassis is shown below along with a standard form factor circuit board that fits into the chassis. These can be concatenated with additional 1U cubes to form larger systems such as 3U or 6U depending on the complexity of the satellite system requirements. CubeSats are reliant upon embedded control systems.
  
 <p align="center">
-  <img src="cubesat_board.jpg" | width=250>
+  <img src="CubeSat_board.jpg" | width=250>
 </p>
 
 # __How the Embedded System Works__ 
-One the earliest forms of modern embedded systems was the Apollo Guidance Computer (ACG) developed by MIT Instrumentations Laboratories. The ACG was used for calculating, relaying, and controlling all flight information on the Apollo manned missions. This guidance computer was one the first systems to use the new monolithic integrated circuits (ICs) that had just came on the market. Now man is returning to space for more complex missions, but the strategy has remained the same: to use embedded applications to develop space capable vehicles for research and exploration.
+
+
 # __Design Challenges__
 
 ## __Throughput__
 
-Cubesats typically operate in low Earth orbits, which means that they are travelling extremely fast with respect to the ground (~7 km/s). Consequently, there are only short communication windows with the ground station when the satellite can transmit and receive data. This means that the satellite must be able to process large amounts of data in short periods of time. 
+CubeSats typically operate in low Earth orbits, which means that they are travelling extremely fast with respect to the ground (~7 km/s). Consequently, there are only short communication windows with the ground station when the satellite can transmit and receive data. This means that the satellite must be able to process large amounts of data in short periods of time. 
 
-Cubesats are often equipped with sensors which generate large volumes of data. A common application of cubesats is for imaging of the Earth's surface. Limited bandwidth may be available for transmission of images from cubesats to the ground. Hence, it may be necessary to perform image processing with the onboard microprocessor in order to reduce the data sufficiently for transmission. 
+CubeSats are often equipped with sensors which generate large volumes of data. A common application of CubeSats is for imaging of the Earth's surface. Limited bandwidth may be available for transmission of images from CubeSats to the ground. Hence, it may be necessary to perform image processing with the onboard microprocessor in order to reduce the data sufficiently for transmission. 
 
 ## __Response__ 
 
-Cubesats must be capable of responding to information received from various sensors and acting on it quickly. For example, the satellite  may enter an uncontrolled spin and need to compute the necessary corrective action based on the gyroscope data to correct the spin as quickly as possible. It must also be able to respond immediately to commands received from the ground. For example, it may need to perform a collision avoidance maneuver if orbital debris or another satellite are going to intersect it's orbit. 
+CubeSats must be capable of responding to information received from various sensors and acting on it quickly. For example, the satellite  may enter an uncontrolled spin and need to compute the necessary corrective action based on the gyroscope data to correct the spin as quickly as possible. It must also be able to respond immediately to commands received from the ground. For example, it may need to perform a collision avoidance maneuver if orbital debris or another satellite are going to intersect it's orbit. 
 
 ## __Testability__
 
 Testing the satellite fully under space-like conditions on the ground is challenging. There are many situations that may occur in space which are not possible to recreate in the labarotory. 
 
-An example of one aspect of the satellite that must be thoroughly tested is the Cubesat's de-tumbling control system and hardware. If the satellite enters an uncontrolled rotation (tumble) it must be able to quickly correct it's orientation and regain a controlled orientation. To recreate the conditions of space which impact this problem, it is necessary to use a Helmholtz coil to recreate the magnetic environment of space and a spherical air bearing which simulates the friction free environment in orbit. These two components allow for the creation of an adjustable system that simulates the satellite in orbit. An example of a cubesat air bearing setup is shown in the following video from Clyde Space:
+An example of one aspect of the satellite that must be thoroughly tested is the CubeSat's de-tumbling control system and hardware. If the satellite enters an uncontrolled rotation (tumble) it must be able to quickly correct it's orientation and regain a controlled orientation. To recreate the conditions of space which impact this problem, it is necessary to use a Helmholtz coil to recreate the magnetic environment of space and a spherical air bearing which simulates the friction free environment in orbit. These two components allow for the creation of an adjustable system that simulates the satellite in orbit. An example of a CubeSat air bearing setup is shown in the following video from Clyde Space:
 
 [![Alt text](https://img.youtube.com/vi/d9Cw1l7ExHE/0.jpg)](https://www.youtube.com/watch?v=d9Cw1l7ExHE)
 
@@ -52,7 +53,7 @@ Usually have a ground mock of the system to thoroughly test any software updates
 
 
 ## __Power Consumption__
-The small size of cubesats is their main advantage along with their low production cost due to the ability to manufacture at scale. However, the limited size has an impact on the available power resources. In space, solar power is widely used to power satellites. The limited real estate available to deploy solar panels on cubesats results in limited power resources. Also, the limited size restricts the available space for power storage solutions. Cubesats must be equipped with storage and low power modes when to allow for operation when the satellite is passing through the Earth's shadow. 
+The small size of CubeSats is their main advantage along with their low production cost due to the ability to manufacture at scale. However, the limited size has an impact on the available power resources. In space, solar power is widely used to power satellites. The limited real estate available to deploy solar panels on CubeSats results in limited power resources. Also, the limited size restricts the available space for power storage solutions. CubeSats must be equipped with storage and low power modes when to allow for operation when the satellite is passing through the Earth's shadow. 
 
 Since many components are more prone to radiation effects when powered on, a candidate mitigation strategy is to power off devices when they are not operationally needed.
 
@@ -61,7 +62,7 @@ Be able to prevent malicious uploads...especially for military satellites. Maint
 
 
 ## __Cost__
-Cubesats main selling point is their low cost compared to more traditional satellites. The cost per lb to lauch mass into a low earth orbit is ... Hence, minimizing the mass of the satellite is critical. Generally, the aim is to maximize the available mass for the system payload. Given the overall restrictions on mass and size, this means limiting the size and number of components. 
+CubeSats main selling point is their low cost compared to more traditional satellites. The cost per lb to lauch mass into a low earth orbit is ... Hence, minimizing the mass of the satellite is critical. Generally, the aim is to maximize the available mass for the system payload. Given the overall restrictions on mass and size, this means limiting the size and number of components. 
 
 For satellites intended to operate beyond 6 months to 1year, their systems must also be radiation hardened to allow the electronics to operate. This incurs additional mass and hence cost. 
 
@@ -69,7 +70,7 @@ For satellites intended to operate beyond 6 months to 1year, their systems must 
 
 https://en.wikipedia.org/wiki/CubeSat
 
-https://www.embedded.com/the-challenges-and-evolution-of-cubesat-electronics/
+https://www.embedded.com/the-challenges-and-evolution-of-CubeSat-electronics/
 
 https://sst-soa.arc.nasa.gov
 
