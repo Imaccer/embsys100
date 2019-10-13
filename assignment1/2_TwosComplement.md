@@ -8,6 +8,7 @@ Subtraction is equivalent to the addition of a negative number.
 For example, consider subtracting 20 from 31. Normally this would be expressed as: 31-20. However, we can instead write 31 + (-20).
 
 The first step is to express -20 in two's complement:
+
     20 in binary: 0b00010100
     Invert:       0b11101011
     Plus 1:       0b11101100
