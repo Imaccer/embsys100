@@ -17,7 +17,7 @@ CubeSats are often equipped with sensors which generate large volumes of data. F
 
 ## __Response__ 
 
-CubeSats must be capable of responding to information received from various sensors and acting on it quickly. For example, the satellite  may enter an uncontrolled spin and need to compute the necessary corrective control thrust or reaction wheel rotation based on the gyroscope data to correct the spin as quickly as possible. It must also be able to respond immediately to commands received from the ground. For example, it may need to perform a collision avoidance maneuver if orbital debris or another satellite are going to intersect it's orbit. 
+CubeSats must be capable of responding to information received from various sensors and acting on it quickly. For example, the satellite  may enter an uncontrolled spin and need to compute the necessary corrective control thrust or reaction wheel rotation based on the gyroscope data to correct the spin as quickly as possible. It must also be able to respond immediately to commands received from the ground such as a message informing it that it needs to perform a collision avoidance maneuver when orbital debris or another satellite are going to intersect it's orbit. 
 
 ## __Testability__
 
@@ -29,10 +29,6 @@ An example of a CubeSat air bearing setup is shown in the following video from C
 
 [![CubeSat de-tumble testing.](https://img.youtube.com/vi/d9Cw1l7ExHE/0.jpg)](https://www.youtube.com/watch?v=d9Cw1l7ExHE)
 
-## __Debugability__
-_Without a screen or keyboard, finding out what software is doing wrong is troublesome._
-
-
 ## __Reliability__
 Once it is launched, there is no option to physically interact with the system to address potential problems. If there is a malfunction, the system must be able to recover on its own or through remote intervention from the ground.
 
@@ -40,7 +36,7 @@ In addition to the isolated operation of the satellite, the satellite must also 
 
 If the processor jumps to an erroneous memory location through a SEU or a software exception, the watchdog timer resets the processor to restore operations.
 
-## __Memory Space__
+## __Memory Issues__
 
 The range of on-board memory for small spacecraft is wide, typically starting around 32 kB and increasing with available technology. The main requirement of memory for application in satellite systems is high reliability. 
 
@@ -49,9 +45,9 @@ SEUs can interrupt discrete logic, including processing. Triple modular redundan
 Multiple copies of the firmware are also stored to mitigate against corruption of the data. Like data memory, program memory is also susceptible to SEUs and device failure. A bootloader may be used to check the validity of the firmware and provide a mechanism for uploading new versions. Additionally, multiple copies of the firmware may be stored in memory in case the primary version is corrupted.
 
 ## __Power Consumption__
-The small size of CubeSats is their main advantage along with their low production cost due to the ability to manufacture at scale. However, the limited size has an impact on the available power resources. In space, solar power is widely used to power satellites. The limited real estate available to deploy solar panels on CubeSats results in limited power resources. Also, the limited size restricts the available space for power storage solutions. CubeSats must be equipped with storage and low power modes when to allow for operation when the satellite is passing through the Earth's shadow. 
+The small size of CubeSats is their main advantage along with their low production cost due to the ability to manufacture at scale. However, the limited size has an impact on the available power resources. In space, solar power is widely used to power satellites. The limited real estate available to deploy solar panels on CubeSats results in limited power resources. Also, the limited size restricts the available space for power storage solutions. CubeSats must be equipped with power storage and low power modes to allow for operation when the satellite is passing through the Earth's shadow. Generally, CubeSat's power budgets are very restricted. 
 
-Since many components are more prone to radiation effects when powered on, a candidate mitigation strategy is to power off devices when they are not operationally needed.
+Additionally, since many components are more prone to radiation effects when powered on, a potential mitigation strategy involves powering off devices when they are not needed.
 
 ## __Security__
 Be able to prevent malicious uploads...especially for military satellites. Maintain secure communications. 
