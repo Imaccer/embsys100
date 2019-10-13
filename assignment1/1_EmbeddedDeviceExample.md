@@ -65,9 +65,9 @@ Be able to prevent malicious uploads...especially for military satellites. Maint
 
 
 ## __Cost__
-Cubesats main selling point is their low cost compared to more traditional satellites. The cost per lb to lauch mass into a low earth orbit is ... Hence, minimizing the mass of the satellite is critical. Generally, the aim is to maximize the available mass for the system payload.
+Cubesats main selling point is their low cost compared to more traditional satellites. The cost per lb to lauch mass into a low earth orbit is ... Hence, minimizing the mass of the satellite is critical. Generally, the aim is to maximize the available mass for the system payload. Given the overall restrictions on mass and size, this means limiting the size and number of components. 
 
-The systems must also be radiation hardened to allow the electronics to operate 
+For satellites intended to operate beyond 6 months to 1year, their systems must also be radiation hardened to allow the electronics to operate. This incurs additional mass and hence cost. 
 
 # __References__
 
