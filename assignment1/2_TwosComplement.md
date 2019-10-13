@@ -9,17 +9,19 @@ For example, consider subtracting 20 from 31. Normally this would be expressed a
 
 The first step is to express -20 in two's complement:
 
-    20 in binary: 0b00010100
-    Invert:       0b11101011
-    Plus 1:       0b11101100
+    20 in binary: 00010100
+    Invert:       11101011
+    Plus 1:       11101100
 
-Hence, the two's complement representation of (-20) is: 0b11101100
+Hence, the two's complement representation of (-20) is: 11101100
 
 We can now perform the subtraction operation (or more accurately, addition):
 
-                 Carry row
-      0b00011111 (31)  
-    + 0b11101100 (-20)  
-    
+               0  Carry row
+      00011111 (31)  
+    + 11101100 (-20)  
+    ____________
+      
+    ____________  
 
  
