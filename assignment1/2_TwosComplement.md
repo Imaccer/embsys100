@@ -16,8 +16,8 @@ Hence, the two's complement representation of (-20) is: 0b11101100
 
 We can now perform the subtraction operation (or more accurately, addition):
 
-              Carry row
-    0b00011111 (31)
+ \             Carry row
+ \   0b00011111 (31)
    
  \+ 0b11101100 (-20)
  ----------------------
