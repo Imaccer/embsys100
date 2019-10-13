@@ -65,6 +65,8 @@ For satellites intended to operate beyond 6 months to 1year, their systems must 
 
 # __References__
 
+https://www.embedded.com/the-challenges-and-evolution-of-cubesat-electronics/
+
 https://sst-soa.arc.nasa.gov
 
 
