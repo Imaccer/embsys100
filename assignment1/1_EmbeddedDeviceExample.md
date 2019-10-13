@@ -46,14 +46,13 @@ Usually have a ground mock of the system to thoroughly test any software updates
 
 
 ## __Power Consumption__
-Rely on solar panels for power, what limit? Also, when in Earth's shadow no incoming power. Different power modes. 
-The small size of cubesats is their main advantage along with their low production cost due to the ability to manufacture at scale. However, the limited size has an impact on the available power resources. In space, solar power is widely used to power satellites. The limited real estate available to deploy solar panels on cubesats results in limited power resources. 
+The small size of cubesats is their main advantage along with their low production cost due to the ability to manufacture at scale. However, the limited size has an impact on the available power resources. In space, solar power is widely used to power satellites. The limited real estate available to deploy solar panels on cubesats results in limited power resources. Also, the limited size restricts the available space for power storage solutions. Cubesats must be equipped with storage and low power modes when to allow for operation when the satellite is passing through the Earth's shadow. 
 
 ## __Security__
 Be able to prevent malicious uploads...especially for military satellites. Maintain secure communications. 
 
 
 ## __Cost__
-Cubesats main selling point is low cost compared to more traditional satellites. The cost per lb to lauch mass into a low earth orbit is ..., hence, minimizing the mass of the satellite is important. The systems must also be radiation hardened to allow the electronics to operate 
+Cubesats main selling point is their low cost compared to more traditional satellites. The cost per lb to lauch mass into a low earth orbit is ..., hence, minimizing the mass of the satellite is important. Generally, the aim is to maximize the available mass for the system payload. Hence, The systems must also be radiation hardened to allow the electronics to operate 
 
 
