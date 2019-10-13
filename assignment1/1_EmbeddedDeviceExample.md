@@ -42,7 +42,7 @@ In addition to the isolated operation of the satellite, the satellite must also 
 
 ## __Memory Space__
 
-TRIPLE MODULAR REDUNDANCY
+The range of on-board memory for small spacecraft is wide, typically starting around 32 kB and increasing with available technology. The main requirement of memory for application in satellite systems is high reliability. 
 
 Single-event upsets can interrupt discrete logic, including processing. Triple modular redundancy (TMR) is a fault mitigation technique where logic is replicated three times, and the output of the logic is determined by a majority-vote. 
 
