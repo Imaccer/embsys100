@@ -10,19 +10,18 @@ Using the telegraph example, and the challenges listed in the module as referenc
 # __Design Challenges__
 
 ## __Throughput__
-_May need to handle lot of data in short period of time_
 
-Cubesats typically operate in low Earth orbits, which means that they are travelling extremely fast with respect to the ground (~7 km/s). Consequently, there are only short communication windows with the ground station when the satellite can transmit and receive data. This means that the satellite must be able to handle large amounts of data in short periods of time. Cubesats are also often equipped with sensors which generate large volumes of data. A common application of cubesats is for imaging of the Earth's surface. Limited bandwidth may be available for transmission of images from cubesats to the ground. Hence, it may be necessary to perform image processing with the onboard microprocessor in order to reduce the data sufficiently for transmission. 
+Cubesats typically operate in low Earth orbits, which means that they are travelling extremely fast with respect to the ground (~7 km/s). Consequently, there are only short communication windows with the ground station when the satellite can transmit and receive data. This means that the satellite must be able to process large amounts of data in short periods of time. 
+
+Cubesats are often equipped with sensors which generate large volumes of data. A common application of cubesats is for imaging of the Earth's surface. Limited bandwidth may be available for transmission of images from cubesats to the ground. Hence, it may be necessary to perform image processing with the onboard microprocessor in order to reduce the data sufficiently for transmission. 
 
 ## __Response__ 
-_Reacting to events quickly_
 
-Responding to information received from various sensors and acting on it. For example, it may enter an uncontrolled spin and need to act quickly on the gyroscope data to correct the spin as quickly as possible. It must also be able to respond immediately to commands received from the ground. For example, it may need to perform a collision avoidance maneuver if orbital debris or another satellite going to intersect it's orbit. 
+Cubesats must be capable of responding to information received from various sensors and acting on it quickly. For example, the satellite  may enter an uncontrolled spin and need to compute the necessary corrective action based on the gyroscope data to correct the spin as quickly as possible. It must also be able to respond immediately to commands received from the ground. For example, it may need to perform a collision avoidance maneuver if orbital debris or another satellite are going to intersect it's orbit. 
 
 ## __Testability__
-_Special equipment required to test the embedded software._
 
-Testing the satellite fully under space-like conditions is challenging. _A test environment to validate their
+Testing the satellite fully under space-like conditions on the ground is challenging. _A test environment to validate their
 CubeSat’s de-tumbling control system and hardware. The test environment required a Helmholtz
 cage and spherical air bearing. The Helmholtz cage provides an adjustable magnetic field to
 simulate low earth orbit; the spherical air bearing simulates the friction free environment the
