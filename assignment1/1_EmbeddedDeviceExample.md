@@ -27,7 +27,9 @@ An example of one aspect of the satellite that must be thoroughly tested is the 
 
 https://www.youtube.com/watch?v=d9Cw1l7ExHE
 
+<p align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/d9Cw1l7ExHE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
 
 
 ## __Debugability__
