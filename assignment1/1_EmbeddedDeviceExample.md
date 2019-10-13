@@ -23,7 +23,9 @@ CubeSats must be capable of responding to information received from various sens
 
 Testing the satellite fully under space-like conditions on the ground is challenging. There are many situations that may occur in space which are not possible to recreate in the labarotory. 
 
-One aspect of the satellite that must be thoroughly tested is the CubeSat's de-tumbling control system and hardware. If the satellite enters an uncontrolled rotation (tumble) it must be able to quickly correct it's orientation and regain a controlled orientation. To recreate the conditions of space in which this scenario arises, it is necessary to use a Helmholtz coil to recreate the magnetic environment of space and a spherical air bearing which simulates the friction free environment in orbit. These two components allow for the creation of an adjustable system that simulates the satellite in orbit. An example of a CubeSat air bearing setup is shown in the following video from Clyde Space:
+One aspect of the satellite that must be thoroughly tested is the CubeSat's de-tumbling control system and hardware. If the satellite enters an uncontrolled rotation (tumble) it must be able to quickly correct it's orientation and regain a controlled orientation. To recreate the conditions of space in which this scenario arises, it is necessary to use a Helmholtz coil to recreate the magnetic environment of space and a spherical air bearing which simulates the friction free environment in orbit. These two components allow for the creation of an adjustable system that simulates the satellite in orbit. 
+
+An example of a CubeSat air bearing setup is shown in the following video from Clyde Space:
 
 [![CubeSat de-tumble testing.](https://img.youtube.com/vi/d9Cw1l7ExHE/0.jpg)](https://www.youtube.com/watch?v=d9Cw1l7ExHE)
 
@@ -32,9 +34,9 @@ _Without a screen or keyboard, finding out what software is doing wrong is troub
 
 
 ## __Reliability__
-Once it is launched, there is no option to physically interact with the system to address potential problems. If there is a malfunction, the system must be able to recover on its own. 
+Once it is launched, there is no option to physically interact with the system to address potential problems. If there is a malfunction, the system must be able to recover on its own or through remote intervention from the ground.
 
-In addition to the isolated operation of the satellite, the satellite must also operate in high radiation conditions which are challenging to operate electronics in. For space applications, radiation can damage electronics in two ways. Total ionizing dose (TID) is the amount of cumulative radiation received. Single event effects (SEE) is the disturbance created by single particles hitting the electronics . Total dose is measured in krad and can affect transistor performance. SEUs can affect the logic state of memory. A single event latchup (SEL) can affect the output transistors on CMOS logic, potentially causing a high-current state.
+In addition to the isolated operation of the satellite, the satellite must also operate in high radiation conditions which are challenging to operate electronics in. For space applications, radiation can damage electronics in two ways. Total ionizing dose (TID) is the amount of cumulative radiation received. Single event effects are the disturbances created by single particles hitting the electronics. Total dose can affect transistor performance. Single event upsets (SEUs) can affect the logic state of memory. An SEU is a change of state caused by one single ionizing particle (ions, electrons, photons...) striking a sensitive node in a micro-electronic device (such as in a microprocessor, semiconductor memory, or power transistors). The state change is a result of the free charge created by ionization in (or close to) an important node of a logic element (e.g. a memory bit). The error in device output or operation caused as a result of the strike is called an SEU or a soft error. A single event latchup (SEL) can affect the output transistors on CMOS logic, potentially causing a high-current state.
 
  If the processor jumps to an erroneous memory location through a SEU or a software exception, the watchdog timer resets the processor to restore operations.
 
