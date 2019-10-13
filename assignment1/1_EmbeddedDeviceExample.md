@@ -21,7 +21,10 @@ Cubesats must be capable of responding to information received from various sens
 
 ## __Testability__
 
-Testing the satellite fully under space-like conditions on the ground is challenging. _A test environment to validate their
+Testing the satellite fully under space-like conditions on the ground is challenging. There are many situations that may occur in space which are not possible to recreate in the labarotory. 
+
+An example of one aspect of the satellite that must be thoroughly tested is the Cubesat's de-tumbling control system and hardware. If the satellite enters an uncontrolled rotation (tumble) it must be able to quickly correct it's orientation and regain a controlled orientation. 
+_A test environment to validate their
 CubeSat’s de-tumbling control system and hardware. The test environment required a Helmholtz
 cage and spherical air bearing. The Helmholtz cage provides an adjustable magnetic field to
 simulate low earth orbit; the spherical air bearing simulates the friction free environment the
@@ -44,7 +47,9 @@ For space applications, radiation can damage electronics in two ways. Total ioni
 
 TRIPLE MODULAR REDUNDANCY
 
-Single-event upsets can interrupt discrete logic, including processing. Triple modular redundancy (TMR) is a fault mitigation technique where logic is replicated three times, and the output of the logic is determined by a majority-vote.
+Single-event upsets can interrupt discrete logic, including processing. Triple modular redundancy (TMR) is a fault mitigation technique where logic is replicated three times, and the output of the logic is determined by a majority-vote. 
+
+Multiple copies of the firmware are also stored to mitigate against corruption of the data. Like data memory, program memory is also susceptible to single-event upsets and device failure. To counter this issue, a bootloader may be used to check the validity of the firmware and provide a mechanism for uploading new versions. Additionally, multiple copies of the firmware may be stored in memory in case the primary version is corrupt.
 
 ## __Program Installation and Upgrade__
 Usually have a ground mock of the system to thoroughly test any software updates before upload to the satellite.
