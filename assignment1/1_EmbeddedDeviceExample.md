@@ -5,10 +5,14 @@ Using the telegraph example, and the challenges listed in the module as referenc
   <img src="cubesat_board.jpg">
 </p>
 
+# __How the Embedded System Works__
+
+# __Design Challenges__
+
 ## __Throughput__
 _May need to handle lot of data in short period of time_
 
-Short communication windows with the ground station for low orbits that cubesats operate in. Must be ready to transmit or receive data when making a pass over a ground station (while travelling at 7km/s).
+Cubesats typically operate in low Earth orbits, which means that they are travelling extremely fast with respect to the ground (~7 km/s). Consequently, there are only short communication windows with the ground station when the satellite can transmit and receive data. This means that the satellite must be able to handle large amounts of data in short periods of time. 
 
 ## __Response__ 
 _Reacting to events quickly_
@@ -27,11 +31,11 @@ system that simulates a satellite in low earth orbit._
 
 
 ## __Debugability__
-
+_Without a screen or keyboard, finding out what software is doing wrong is troublesome._
 
 
 ## __Reliability__
-Once it is launched...
+Once it is launched, there is no option to physically interact with the system to address potential problems. If there is a malfunction, the system must be able to recover on its own. 
 
 
 ## __Memory Space__
