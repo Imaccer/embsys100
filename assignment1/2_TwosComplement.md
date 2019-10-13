@@ -9,9 +9,9 @@ For example, consider subtracting 20 from 31. Normally this would be expressed a
 
 The first step is to express -20 in two's complement:
 
-    20 in binary: 00010100
-    Invert:       11101011
-    Plus 1:       11101100
+    20 in binary: 00010100 (20)
+    Invert:       11101011 
+    Plus 1:       11101100 (-20)
 
 Hence, the two's complement representation of (-20) is: 11101100
 
