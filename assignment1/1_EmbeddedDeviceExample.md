@@ -1,6 +1,6 @@
-# __The Cubesat__
+# __The CubeSat__
 
-Compared to conventional satellites, CubeSats are inexpensive to develop and launch, and can be networked together to form constellations. A 1U CubeSat has a form factor of 10 x 10 x 11.35cm. The CubeSat chassis is shown in Figure 1 along with a standard form factor circuit board that fits into the chassis. These can be concatenated with additional 1U cubes to form larger systems such as 3U or 6U depending on the complexity of the satellite system requirements.
+The field of small satellites is growing rapidly, over 1000 CubeSats have been launched as of January 2019. Compared to conventional satellites, CubeSats are inexpensive to develop and launch, and can be networked together to form constellations. A 1U CubeSat has a form factor of 10 x 10 x 11.35cm. The CubeSat chassis is shown below along with a standard form factor circuit board that fits into the chassis. These can be concatenated with additional 1U cubes to form larger systems such as 3U or 6U depending on the complexity of the satellite system requirements.
  
 <p align="center">
   <img src="cubesat_board.jpg" | width=250>
@@ -66,6 +66,8 @@ Cubesats main selling point is their low cost compared to more traditional satel
 For satellites intended to operate beyond 6 months to 1year, their systems must also be radiation hardened to allow the electronics to operate. This incurs additional mass and hence cost. 
 
 # __References__
+
+https://en.wikipedia.org/wiki/CubeSat
 
 https://www.embedded.com/the-challenges-and-evolution-of-cubesat-electronics/
 
