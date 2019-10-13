@@ -42,6 +42,9 @@ For space applications, radiation can damage electronics in two ways. Total ioni
 
 ## __Memory Space__
 
+TRIPLE MODULAR REDUNDANCY
+
+Single-event upsets can interrupt discrete logic, including processing. Triple modular redundancy (TMR) is a fault mitigation technique where logic is replicated three times, and the output of the logic is determined by a majority-vote.
 
 ## __Program Installation and Upgrade__
 Usually have a ground mock of the system to thoroughly test any software updates before upload to the satellite.
@@ -60,5 +63,9 @@ Be able to prevent malicious uploads...especially for military satellites. Maint
 Cubesats main selling point is their low cost compared to more traditional satellites. The cost per lb to lauch mass into a low earth orbit is ... Hence, minimizing the mass of the satellite is critical. Generally, the aim is to maximize the available mass for the system payload.
 
 The systems must also be radiation hardened to allow the electronics to operate 
+
+# __References__
+
+https://sst-soa.arc.nasa.gov
 
 
