@@ -1,5 +1,5 @@
 # __The CubeSat__
-
+<p align="justified">
 The field of small satellites is growing rapidly, over 1000 CubeSats have been launched as of January 2019. Compared to conventional satellites, CubeSats are inexpensive to develop and launch, and can be networked together to form constellations. A 1U CubeSat has a form factor of 10 x 10 x 11.35cm. The CubeSat chassis is shown below along with a standard form factor circuit board that fits into the chassis. These can be concatenated with additional 1U cubes to form larger systems such as 3U or 6U depending on the complexity of the satellite system requirements. CubeSats are reliant upon embedded control systems.
  
 <p align="center">
@@ -69,3 +69,4 @@ https://sst-soa.arc.nasa.gov
 https://en.wikipedia.org/wiki/Single-event_upset
 
 
+<\p>
