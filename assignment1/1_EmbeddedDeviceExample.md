@@ -8,6 +8,17 @@ The field of small satellites is growing rapidly, over 1000 CubeSats have been l
 
 # __How the Embedded System Works__ 
 
+The satellite is managed by a STM32L4 microcontroller, with low power mode capabilities. The microcontroller is in
+charge of managing all the satellite systems. Its main task is to manage the satellite operative modes, which are directly
+referred to the power systems. The latter is comprised by battery, solar cells and power distribution components. The
+microcontroller is also in charge of running the GNC/ADCS algorithm, of receiving inputs from the sensors and of
+commanding the actuators. Another task is to manage the whole TT&C subsystem, comprised of the main TT&C
+module, its connection with the SDR generating hardware and the IRIDIUM module. Finally, it manages the on-board
+scientific experiments, meaning the innovative solar cells and a radiation experiment. The microcontroller and the main
+subsystems components are placed inside the satellite body, on a dedicated motherboard which can represents the heart
+of a family of spacecraft with the same electronics but different sizes.
+
+
 
 # __Design Challenges__
 
@@ -58,6 +69,8 @@ One application of CubeSat constellations is to provide broadband internet from 
 # __References__
 
 https://en.wikipedia.org/wiki/CubeSat
+
+https://www.eucass.eu/doi/EUCASS2017-489.pdf
 
 https://www.embedded.com/the-challenges-and-evolution-of-CubeSat-electronics/
 
