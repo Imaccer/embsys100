@@ -8,19 +8,7 @@ The field of small satellites is growing rapidly, over 1000 CubeSats have been l
 
 # __How the Embedded System Works__ 
 
-Satellites require a microcontroller to manage all of their systems. Its main task is to manage the different operating modes of the satellite, which are directly related to the power modes the system operates in. The microcontroller is also in charge of running the guidance navigation and control (GNC) and attitude determination control system (ADCS) algorithms. These algorithms rely on input data from various sensors (star-trackers, sun-trackers, GPS, gyroscopes, magnetometers) to calculate the position and orientation of the satellite. The microcontroller executes the algorithms to output the necessary control signals to the actuators (reaction wheels and/or thrusters).
-
-The satellite is managed by a STM32L4 microcontroller, with low power mode capabilities. The microcontroller is in
-charge of managing all the satellite systems. Its main task is to manage the satellite operative modes, which are directly
-referred to the power systems. The latter is comprised by battery, solar cells and power distribution components. The
-microcontroller is also in charge of running the GNC/ADCS algorithm, of receiving inputs from the sensors and of
-commanding the actuators. Another task is to manage the whole TT&C subsystem, comprised of the main TT&C
-module, its connection with the SDR generating hardware and the IRIDIUM module. Finally, it manages the on-board
-scientific experiments, meaning the innovative solar cells and a radiation experiment. The microcontroller and the main
-subsystems components are placed inside the satellite body, on a dedicated motherboard which can represents the heart
-of a family of spacecraft with the same electronics but different sizes.
-
-
+Satellites require a microcontroller to manage all of their systems. Its main task is to manage the different operating modes of the satellite, which are directly related to the power modes the system operates in. The microcontroller is also in charge of running the guidance navigation and control (GNC) and attitude determination control system (ADCS) algorithms. These algorithms rely on input data from various sensors (star-trackers, sun-trackers, GPS, gyroscopes, magnetometers) to calculate the position and orientation of the satellite. The microcontroller executes the algorithms to output the necessary control signals to the actuators (reaction wheels and/or thrusters). The microcontroller also manages the communication system which sends and receives telemetry and payload data between other satellites which relay the data to the ground receving stations.
 
 # __Design Challenges__
 
