@@ -8,6 +8,8 @@ The field of small satellites is growing rapidly, over 1000 CubeSats have been l
 
 # __How the Embedded System Works__ 
 
+Satellites require a microcontroller to manage all of their systems. Its main task is to manage the different operating modes of the satellite, which are directly related to the power modes the system operates in. The microcontroller is also in charge of running the guidance navigation and control (GNC) and attitude determination control system (ADCS) algorithms. These algorithms rely on input data from various sensors (star-trackers, sun-trackers, GPS, gyroscopes, magnetometers) to calculate the position and orientation of the satellite. The microcontroller executes the algorithms to output the necessary control signals to the actuators (reaction wheels and/or thrusters).
+
 The satellite is managed by a STM32L4 microcontroller, with low power mode capabilities. The microcontroller is in
 charge of managing all the satellite systems. Its main task is to manage the satellite operative modes, which are directly
 referred to the power systems. The latter is comprised by battery, solar cells and power distribution components. The
