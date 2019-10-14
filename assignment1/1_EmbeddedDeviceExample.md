@@ -26,9 +26,7 @@ CubeSats must be capable of responding to information received from various sens
 
 ## __Testability__
 <p align="justify">
-Testing the satellite fully under space-like conditions on the ground is challenging. There are many situations that may occur in space which are not possible to recreate in the labarotory. 
-
-One aspect of the satellite that must be thoroughly tested is the CubeSat's de-tumbling control system and hardware. If the satellite enters an uncontrolled rotation (tumble) it must be able to quickly correct it's orientation and regain a controlled orientation. To recreate the conditions of space in which this scenario arises, it is necessary to use a Helmholtz coil to recreate the magnetic environment of space and a spherical air bearing which simulates the friction free environment in orbit. These two components allow for the creation of an adjustable system that simulates the satellite in orbit. 
+Testing the satellite fully under space-like conditions on the ground is challenging. There are many situations that may occur in space which are not possible to recreate in the labarotory. One aspect of the satellite that must be thoroughly tested is the CubeSat's de-tumbling control system and hardware. If the satellite enters an uncontrolled rotation (tumble) it must be able to quickly correct it's orientation and regain a controlled orientation. To recreate the conditions of space in which this scenario arises, it is necessary to use a Helmholtz coil to recreate the magnetic environment of space and a spherical air bearing which simulates the friction free environment in orbit. These two components allow for the creation of an adjustable system that simulates the satellite in orbit. 
 
 An example of a CubeSat air bearing setup is shown in the following video from Clyde Space:
 </p>
@@ -46,25 +44,18 @@ Radiation damage can be mitigated by radiation hardening electronic components, 
 
 ## __Memory Issues__
 <p align="justify">
-The range of on-board memory for small spacecraft is wide, typically starting around 32 kB and increasing with available technology. The main requirement of memory for application in satellite systems is high reliability. 
-
-SEUs can interrupt discrete logic, including processing. Triple modular redundancy (TMR) is a fault mitigation technique where logic is replicated three times. The output of the logic is then determined by a majority-vote. 
-
-Multiple copies of the firmware are also stored to mitigate against corruption of the data. Like data memory, program memory is also susceptible to SEUs and device failure. A bootloader may be used to check the validity of the firmware and provide a mechanism for uploading new versions. Additionally, multiple copies of the firmware may be stored in memory in case the primary version is corrupted.
+The range of on-board memory for small spacecraft is wide, typically starting around 32 kB and increasing with available technology. The main requirement of memory for application in satellite systems is high reliability. SEUs can interrupt discrete logic, including processing. Triple modular redundancy (TMR) is a fault mitigation technique where logic is replicated three times. The output of the logic is then determined by a majority-vote. Multiple copies of the firmware are also stored to mitigate against corruption of the data. Like data memory, program memory is also susceptible to SEUs and device failure. Additionally, multiple copies of the firmware may be stored in memory in case the primary version is corrupted.
 </p>
 
 ## __Power Consumption__
 <p align="justify">
 The small size of CubeSats is their main advantage along with their low production cost due to the ability to manufacture at scale. However, the limited size has an impact on the available power resources. In space, solar power is widely used to power satellites. The limited real estate available to deploy solar panels on CubeSats results in limited power resources. Also, the limited size restricts the available space for power storage solutions. CubeSats must be equipped with power storage and low power modes to allow for operation when the satellite is passing through the Earth's shadow. Software must be able to conserve power as CubeSat's power budgets are generally very restricted. 
-
 Additionally, since many components are more prone to radiation effects when powered on, a potential mitigation strategy involves powering off devices when they are not needed.
 </p>
 
 ## __Cost__
 <p align="justify">
-CubeSats main selling point is their low cost compared to more traditional satellites. The cost per lb to lauch mass into a low earth orbit is still very high despite recent progress in this area by SpaceX and others. Hence, minimizing the mass of the satellite is critical. 
-
-One application of CubeSat constellations is to provide broadband internet from space. SpaceX's Starlink constellation is aiming to eventually fly 12,000 satellites. Minimizing the cost of the hardware components is critical to the success of implementing this kind of infrastructure which is currently projected to cost \$10B.
+CubeSats main selling point is their low cost compared to more traditional satellites. The cost per lb to lauch mass into a low earth orbit is still very high despite recent progress in this area by SpaceX and others. Hence, minimizing the mass of the satellite is critical. One application of CubeSat constellations is to provide broadband internet from space. SpaceX's Starlink constellation is aiming to eventually fly 12,000 satellites. Minimizing the cost of the hardware components is critical to the success of implementing this kind of infrastructure which is currently projected to cost \$10B.
 </p>
 
 # __References__
