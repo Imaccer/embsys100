@@ -52,7 +52,7 @@ Additionally, since many components are more prone to radiation effects when pow
 
 ## __Cost__
 <p align="justify">
-CubeSats main selling point is their low cost compared to more traditional satellites. The cost per lb to lauch mass into a low earth orbit is still very high despite recent progress in this area by SpaceX and others. Hence, minimizing the mass of the satellite is critical. One application of CubeSat constellations is to provide broadband internet from space. SpaceX's Starlink constellation is aiming to eventually fly 12,000 satellites. Minimizing the cost of the hardware components is critical to the success of implementing this kind of infrastructure which is currently projected to cost \$10B.
+CubeSats main selling point is their low cost compared to more traditional satellites. The cost per lb to lauch mass into a low earth orbit is still very high despite recent progress in this area by SpaceX and others. Hence, minimizing the mass of the satellite is critical. One application of CubeSat constellations is to provide broadband internet from space. SpaceX's Starlink constellation is aiming to eventually fly 12,000 satellites. Minimizing the cost of the hardware components is critical to the success of implementing this kind of infrastructure which is currently projected to cost $10B.
 </p>
 
 # __References__
