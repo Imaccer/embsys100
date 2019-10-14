@@ -21,7 +21,7 @@ CubeSats are often equipped with sensors which generate large volumes of data. F
 
 ## __Response__ 
 <p align="justify">
-CubeSats must be capable of responding to information received from various sensors and acting on it quickly. For example, the satellite  may enter an uncontrolled spin and need to compute the necessary corrective control thrust or reaction wheel rotation based on the gyroscope data to correct the spin as quickly as possible. It must also be able to respond immediately to commands received from the ground such as a message informing it that it needs to perform a collision avoidance maneuver when orbital debris or another satellite are going to intersect it's orbit. 
+CubeSats must be capable of responding to information received from various sensors and acting on it quickly. For example, the satellite  may enter an uncontrolled spin and need to compute the necessary corrective control thrust or reaction wheel rotation based on the gyroscope (and other sensors) data to correct the spin as quickly as possible. It must also be able to respond immediately to commands received from the ground such as a message informing it that it needs to perform a collision avoidance maneuver when orbital debris or another satellite are going to intersect it's orbit. 
 </p>
 
 ## __Testability__
