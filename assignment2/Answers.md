@@ -23,4 +23,7 @@
  .c. In the 'Watch 1' view.
  .d. 0x20000000
  
-6. 
+6.a. 4
+ .b. Explain why counter value changed. Created pointer to counter variable. Incremented he dereferenced pointer 3 times. Incremented the counter value directly once. 
+ 
+ 7.a. make sure hello world removed first. may need to create new directory/workspace.
