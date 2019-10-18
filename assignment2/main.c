@@ -1,7 +1,7 @@
 
 int main()
 {
-  int counter=2;
+  int counter=0;
   counter++;
   counter++;
   counter++;
