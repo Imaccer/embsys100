@@ -18,3 +18,9 @@
   .b. Z - this is set as the result is 0
       C - carry condition. look up. 
      
+5.a.
+ .b. No, it is not still visible in the Locals view. 
+ .c. In the 'Watch 1' view.
+ .d. 0x20000000
+ 
+6. 
