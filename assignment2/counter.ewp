@@ -44,7 +44,7 @@
                 </option>
                 <option>
                     <name>OGCoreOrChip</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>GRuntimeLibSelect</name>
@@ -78,7 +78,7 @@
                 </option>
                 <option>
                     <name>OGChipSelectEditMenu</name>
-                    <state>Default	None</state>
+                    <state>STM32F401RE	ST STM32F401RE</state>
                 </option>
                 <option>
                     <name>GenLowLevelInterface</name>
@@ -138,17 +138,17 @@
                 </option>
                 <option>
                     <name>GFPUDeviceSlave</name>
-                    <state>Default	None</state>
+                    <state>STM32F401RE	ST STM32F401RE</state>
                 </option>
                 <option>
                     <name>FPU2</name>
                     <version>0</version>
-                    <state>0</state>
+                    <state>4</state>
                 </option>
                 <option>
                     <name>NrRegs</name>
                     <version>0</version>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>NEON</name>
@@ -649,7 +649,7 @@
                 </option>
                 <option>
                     <name>OOCOutputFile</name>
-                    <state></state>
+                    <state>counter.srec</state>
                 </option>
                 <option>
                     <name>OOCCommandLineProducer</name>
@@ -768,7 +768,7 @@
                 </option>
                 <option>
                     <name>IlinkIcfFile</name>
-                    <state></state>
+                    <state>$TOOLKIT_DIR$\CONFIG\generic_cortex.icf</state>
                 </option>
                 <option>
                     <name>IlinkIcfFileSlave</name>
@@ -828,7 +828,7 @@
                 </option>
                 <option>
                     <name>IlinkProgramEntryLabel</name>
-                    <state></state>
+                    <state>__iar_program_start</state>
                 </option>
                 <option>
                     <name>DoFill</name>
@@ -1001,7 +1001,7 @@
                 </option>
                 <option>
                     <name>IlinkTrustzoneImportLibraryOut</name>
-                    <state>###Unitialized###</state>
+                    <state>counter_import_lib.o</state>
                 </option>
                 <option>
                     <name>OILinkExtraOption</name>
