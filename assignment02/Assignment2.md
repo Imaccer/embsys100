@@ -1,31 +1,31 @@
 # __Assignment 2__
 
-1. (a) 536870912
+1. (a) 536,870,912
 
- (b) 0x20000000
+   (b) 0x20000000
 
- (c) No flags because the result was not negative (N) or zero (Z). There was no overflow (V) or carry over (C).
+   (c) No flags because the result was not negative (N) or zero (Z). There was no overflow (V) or carry over (C).
 
- int is a signed integer variable which can range from -2,147,483,648 to 2,147,483,647.
+    int is a signed integer variable which can range from -2,147,483,648 to 2,147,483,647.
 
- The initial value injected was 0x1FFFFFFF (536,870,911) which is within the allowed range. Incremented this value by 1 gives 0x20000000 (536,870,912) which is still in range. This explains why there are no V or C flags.
+    The initial value injected was 0x1FFFFFFF (536,870,911) which is within the allowed range. Incremented this value by 1 gives      0x20000000 (536,870,912) which is still in range. This explains why there are no V or C flags.
 
 2. (a) Changes from -1 to 0 in decimal (0xFFFFFFFF to 0x00000000).
 
- (b) Z - this is set as the result of the operation is 0
+   (b) Z - this is set as the result of the operation is 0
 
-     C - carry condition.
+    C - carry condition.
 
-     The carry condition is set to one for any of the following reasons:
+    The carry condition is set to one for any of the following reasons:
 
-     * if the result of an addition is greater than or equal to 2^32
+    * if the result of an addition is greater than or equal to 2^32
 
-     * if the result of a subtraction is positive or zero
+    * if the result of a subtraction is positive or zero
 
-     * as the result of an inline barrel shifter operation in a move or logical instruction.
+    * as the result of an inline barrel shifter operation in a move or logical instruction.
 
-  0xFFFFFFFF in binary is 0b11111111111111111111111111111111.
-  It is a signed int, hence, the MSB indicates the sign. In this case it is a 1, indicating a negative number. Performing the two's complement transformation gives a decimal value of -1.
+    0xFFFFFFFF in binary is 0b11111111111111111111111111111111.
+    It is a signed int, hence, the MSB indicates the sign. In this case it is a 1, indicating a negative number. Performing the two's    complement transformation gives a decimal value of -1.
 
 
       0b11111111111111111111111111111111 (-1 or 0xFFFFFFFF)
@@ -35,35 +35,33 @@
       0b100000000000000000000000000000000
      ___________________________________
 
-
-
-  The result of adding 1 to 0xFFFFFFFF is a 33 bit number in binary and therefore the MSB is dropped as the register can only hold 32 bits. When the MSB is dropped, the returned value is 0. The carried over bit causes the carry condition to be positive, i.e., this is why C=1 in the APSR. Since the returned value is 0, the Z flag is 1.
+  The result of adding 1 to 0xFFFFFFFF is a 33 bit number in binary and therefore the MSB is dropped as the register can only hold 32   bits. When the MSB is dropped, the returned value is 0. The carried over bit causes the carry condition to be positive, i.e., this is why C=1 in the APSR. Since the returned value is 0, the Z flag is 1.
 
 3. (a) 0x20000000
 
-    (b)  No flags because the result was not negative (N) or zero (Z). There was no overflow (V) or carry over (C).
+   (b)  No flags because the result was not negative (N) or zero (Z). There was no overflow (V) or carry over (C).
 
-    In this case, the incremented value of 0x1FFFFFFF+0x00000001=0x20000000 is 536,870,912 in decimal and is still within the range of the unsigned int (max value is 2^32-1=4,294,967,295). Hence, none of the flags are set in APSR.
+   In this case, the incremented value of 0x1FFFFFFF+0x00000001=0x20000000 is 536,870,912 in decimal and is still within the range of   the unsigned int (max value is 2^32-1=4,294,967,295). Hence, none of the flags are set in APSR.
 
 4. (a) 0 (goes from 4,294,967,295 to 0)
 
-  (b) Z - this is set as the result is 0
-      C - carry condition.
+   (b) Z - this is set as the result is 0
+       C - carry condition.
 
-      The carry flag is 1 because the result of adding 1 to 4,294,967,295 is equal to 4,294,967,296=2^32. This satisfies one of the conditions for the C flag to be set.
+      The carry flag is 1 because the result of adding 1 to 4,294,967,295 is equal to 4,294,967,296=2^32. This satisfies one of the  conditions for the C flag to be set.
       The result of the addition is in binary:
 
       0b100000000000000000000000000000000
 
-      which is 33 bits and cannot be stored in a 32 bit register. C is flagged and the MSB is dropped which results in a returned value of 0. Hence, the zero condition is flagged.
+      which is 33 bits and cannot be stored in a 32 bit register. C is flagged and the MSB is dropped which results in a returned value  of 0. Hence, the zero condition is flagged.
 
 5. (a) Global
 
- (b) No.
+   (b) No.
 
- (c) In the 'Watch 1' view.
+   (c) In the 'Watch 1' view.
 
- (d) 0x20000000
+   (d) 0x20000000
 
 6. (a) 4
 
@@ -92,9 +90,9 @@
 
 7. (a) 0x20000000
 
-  (b) RAM
+   (b) RAM
 
-  (c) 4
+   (c) 4
 
 
 # __References__
