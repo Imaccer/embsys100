@@ -28,13 +28,13 @@
     It is a signed int, hence, the MSB indicates the sign. In this case it is a 1, indicating a negative number. Performing the two's    complement transformation gives a decimal value of -1.
 
 
-      0b11111111111111111111111111111111 (-1 or 0xFFFFFFFF)
+       0b11111111111111111111111111111111 (-1 or 0xFFFFFFFF)
       
-     +0b00000000000000000000000000000001 (1 or 0x00000001)
-     ___________________________________
+       +0b00000000000000000000000000000001 (1 or 0x00000001)
+       ___________________________________
 
-      0b100000000000000000000000000000000
-     ___________________________________
+       0b100000000000000000000000000000000
+       ___________________________________
 
   The result of adding 1 to 0xFFFFFFFF is a 33 bit number in binary and therefore the MSB is dropped as the register can only hold 32   bits. When the MSB is dropped, the returned value is 0. The carried over bit causes the carry condition to be positive, i.e., this is why C=1 in the APSR. Since the returned value is 0, the Z flag is 1.
 
