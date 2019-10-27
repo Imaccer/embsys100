@@ -6,7 +6,10 @@
       <p align="justify">
       What is called Morse code today is actually somewhat different from what was originally developed by Vail and Morse. The Modern International Morse code, or continental code, was created by Friedrich Clemens Gerke in 1848 and initially used for telegraphy between Hamburg and Cuxhaven in Germany. Gerke changed nearly half of the alphabet and all of the numerals, providing the foundation for the modern form of the code. After some minor changes, International Morse Code was standardized at the International Telegraphy Congress in 1865 in Paris and was later made the standard by the International Telecommunication Union (ITU). Morse's original code specification, largely limited to use in the United States and Canada, became known as American Morse code or railroad code.
       </p>
-      ![GitHub Logo](Morse_comparison.png)
+
+      <p align="center">
+      <img src=Morse_comparison.png width="300">
+      </p>
 
       https://en.wikipedia.org/wiki/Morse_code
 
@@ -27,7 +30,7 @@
     <p align="justify">
     However, some claim Morse was responsible for the dots and dashes. It is said by Morse supporters that Vail never claimed the code for himself. According to one researcher, in a February 1838 letter to his father Vail wrote, "Professor Morse has invented a new plan of an alphabet, and has thrown aside the Dictionaries." In an 1845 book Vail wrote describing Morse's telegraph, he also attributed the code to Morse.
     </p>
-    
+
 https://www.qcwa.org/vail.htm
 
 https://en.wikipedia.org/wiki/Samuel_Morse
