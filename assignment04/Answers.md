@@ -1,4 +1,4 @@
-1. a. See main.c
+1. a. See directory /BitBandingLED
 
    b.  What instructions does the compiler produce in assembly for the “writing” to the GPIO
 bit when using bit-band address?
@@ -66,4 +66,4 @@ Code to load var4 from the stack into R5.
 
 3. See directory /Stack
 
-4. 
+4. See directory /Endian
