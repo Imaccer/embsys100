@@ -1,19 +1,19 @@
 1. a. See directory /BitBandingLED
 
-   b.  What instructions does the compiler produce in assembly for the “writing” to the GPIO
-bit when using bit-band address?
+   b.  What instructions does the compiler produce in assembly for the “writing” to the GPIO bit when using bit-band address?
 
 ```assembly
 0x800'0046: 0x2001  MOVS  R0, #1
 0x800'0048: 0x490e  LDR.N R1, [PC, #0x38]
 0x800'004a: 0x6008  STR   R0, R1
 ```
-  c. What were the instructions produced when writing to the GPIOx_ODR bit[5] directly?
+  c. What were the instructions produced when writing to the GPIOx_ODR bit[5] without using bit banding?
 
 ```assembly
-0x800'0062: 0x4a0b  LDR.N R2, [PC, #0x2c]
-0x800'0064: 0x2301  MOVS  R3, #1
-0x800'0066: 0x6013  STR   R3, [R2]
+0x800'0062: 0x4a0d  LDR.N R2, [PC, #0x34]
+0x800'0064: 0x6813  LDR   R3, [R2]
+0x800'0066: 0xf053 0x0320 ORRS.W  R3, R3, #32
+0x800'006a: 0x6013  STR   R3, [R2]
 ```
 
 2. a. How does the calling function pass the values to the called function?
