@@ -21,7 +21,7 @@ The final step before calling the swap_pointer function is moving the arguments 
    c.
 
 <p align="center">
-<img src=SS_1c width="300">
+<img src=SS_1c.png width="300">
 </p>
 
 
