@@ -24,7 +24,7 @@ The final step before calling the swap_pointer function is moving the arguments 
 <img src=SS_1c.png width="300">
 </p>
 
-
+The images appear not to be working on git despite working in my preview offline. Please open the images in the directory instead.
 2. a,b,c,d. Done.
 
    e.  
